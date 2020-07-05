@@ -9,7 +9,7 @@ import {setContext} from 'apollo-link-context'
 
 
 const httpLink = createHttpLink({
-    uri: 'http://localhost:5000'
+    uri: 'https://serene-petrified-forest-73466.herokuapp.com/'
 })
 
 const authLink = setContext(()=>{
